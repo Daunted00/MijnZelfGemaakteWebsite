@@ -1,0 +1,31 @@
+
+nav { /*algemene nav css*/
+    background-color: rgb(180, 180, 180); /*maakt de navigatie balk grijs*/
+    color: black; /*zwarte letters*/
+    font-size: 20px; /*grootte van de tekst in de navigatiebalk*/
+    display: flex; /*zorgt dat de box die gemaakt wordt flex is*/
+    padding: 20px 25px; /*creërt extra ruimte in de box*/
+}
+
+nav div { 
+    flex: 0 1 100%; /*zorgt dat de breedte van alle <div>'s 100% is*/ 
+     /*hoogte van de boxen*/ /*zonder worden de boxen uitgerekt naar onderen */
+    border: 0px solid; /*een border om te testen of alles goed staat*/
+}
+
+.return { /*tekst + icon goedzetten*/
+    height: 32px; /*zorgt ervoor dat de hoogte van de return arrow 32px is*/
+    display: flex; /*?*/ /*zonder wordt de pijl weer groot*/
+}
+
+.logo { /*logo class die aan een div gegeven kan worden speciaal om het logo in het midden te zetten*/
+    height: 32px; /*hoogte van het plaatje*/
+    margin: 0 50%; /*zet het plaatje in het midden*/
+}
+
+.menu { /*tekst + icon goed zetten*/
+    height: 32px; /*zorgt ervoor dat de hoogte van de return arrow 32px is*/
+    display: flex; /*zorgt ervoor dat de tekst en het menu plaatje naast elkaar staan inplaats van onder elkaar*/
+    float: right; /*zorgt er voor dat alles aan de rechter kant staan in de box*/
+}
+

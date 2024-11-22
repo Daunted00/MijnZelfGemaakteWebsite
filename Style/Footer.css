@@ -1,0 +1,13 @@
+footer {
+    background-color: grey;
+    display: flex;
+    
+    
+}
+
+footer div {
+    flex: 0 1 100%; /*zorgt er voor dat de <div>'s worden verdeelt horizontaal*/
+    border: 1px solid;
+    padding: 5px;
+}
+

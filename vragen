@@ -1,0 +1,8 @@
+Algemene vragen
+    wat is precies het verschil tussen de verschillende display's
+    meerdere css bestanden aan elkaar koppelen? kan geen 2 met import.
+
+Navigatiebalk.css 39
+    ik heb float gebruikt om de tekst rechts te krijgen. is dat een goeie manier? met margin left bijvoorbeeld komt het niet goed als het scherm kleiner wordt en met float wel
+header.css 22
+    float circle goeie manier?

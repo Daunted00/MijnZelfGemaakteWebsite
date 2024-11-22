@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Contact-formulier</title> <!--naam voor browser-pagina naam-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script> <!--voert standaard opmaak uit-->
+  <link rel="stylesheet" href="../Style/Navigatiebalk.css"> <!--voegt css voor navigatiebalk toe-->
+  <link rel="stylesheet" href="../Style/Header.css"> <!--voegt css voor de header toe-->
+  <link rel="stylesheet" href="../Style/ContactFormulier.css"> <!--voegt css voor het contactformulier toe-->
+  <link rel="stylesheet" href="../Style/Footer.css">
+</head>
+
+<style>
+
+  body {
+    margin: 0 auto;
+    background-color: rgb(218, 218, 218);
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+
+ 
+ 
+</style>
+
+<nav>
+  <div>
+    <a class="return" href="../sitemap.html"><img src="../fontIcons/arrow-left-solid.svg" alt="Return"/>Terug</a>
+  </div>
+  <div>
+    <img class="logo" src=../images/smiley.png alt="smiley.jpg">
+  </div>
+  <div>
+    <a class="menu" href="../sitemap.html">Menu<img src="../fontIcons/bars-solid.svg" alt="menu"/></a>
+  </div>
+
+</nav>
+
+<header>
+  <div> <!--Title-->
+    <h1>Contactformulier</h1>
+  </div>
+  <div> <!--Circle-->
+    <div class="round"></div>
+  </div>
+  <div> <!--Subtitle-->
+    <h1>hello</h1>
+  </div>
+</header>
+<body>
+<div class="container">
+  <h2>Als er vragen of opmerkingen zijn kunt u die hier achter laten.</h2><br>
+  
+  <form id="contactForm"> <!--form geeft aan dat het een forum is - id contact maakt een connectie met het javascript-->
+    <label for="name">Naam:</label>
+    <input type="text" id="name" name="name" required>
+  
+    <label for="email">E-mailadres:</label>
+    <input type="email" id="email" name="email" required>
+  
+    <label for="message">Bericht:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">submit</button>
+  </form>
+  <p id="responseMessage"></p>
+</div>
+
+<script src="/Javascript/ContactFormulier.js"></script>
+</body>
+
+<footer>
+
+  <div>
+    <p>a</p>
+  </div>
+  <div>
+    <p>a</p>
+  </div>
+  <div>
+    <p>a</p>
+  </div>
+</footer>
+
+<footer>
+ <div>
+  <p>a</p>
+ </div>
+ <div>
+  <p>a</p>
+ </div>
+ <div>
+  <p>a</p>
+ </div>
+
+</footer>
+
+
+</html>
