@@ -1,3 +1,11 @@
+@import url(/Style/Header.css);
+@import url(/Style/Navigatiebalk.css);
+@import url(/Style/Body.css);
+@import url(/Style/Footer.css);
+
+
+
+
 H1.headline{
     border-radius: 5px;
     border-style: dashed;
