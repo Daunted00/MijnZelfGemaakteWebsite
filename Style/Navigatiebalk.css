@@ -1,7 +1,7 @@
 
 body nav { /*algemene nav css*/
-    background-color: rgb(180, 180, 180); /*maakt de navigatie balk grijs*/
-    color: black; /*zwarte letters*/
+    background-color: #12181D; /*maakt de navigatie balk donker*/
+    color: white; /*witte letters*/
     font-size: 20px; /*grootte van de tekst in de navigatiebalk*/
     display: flex; /*zorgt dat de box die gemaakt wordt flex is*/
     padding: 20px 25px; /*creërt extra ruimte in de box*/

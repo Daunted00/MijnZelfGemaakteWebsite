@@ -2,12 +2,27 @@ footer {
     background-color: grey;
     display: flex;
     
-    
+
 }
 
 footer div {
     flex: 0 1 100%; /*zorgt er voor dat de <div>'s worden verdeelt horizontaal*/
+    
     border: 1px solid;
     padding: 5px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Drie gelijke kolommen */
+    gap: 10px; /* Ruimte tussen de divs */
+    
+  }
+  
+  .grid-item {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+    
+  }
