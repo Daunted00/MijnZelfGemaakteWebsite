@@ -22,18 +22,18 @@ body div.opdracht{
   
 }
 
-.title{
+h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 28px;
   
 
 }
 
-.pictures {
+.section img{
   border-radius: 25px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-
-
+  width: 100%;
+  margin: 5px;
 }
 
 .section{
@@ -47,6 +47,12 @@ border: px solid;
 border-radius: 5px;
 
 }
+
+.div33{
+  width: 33%;
+  margin: 5px;
+
+}
 .div40{
   width: 40%;
   border: px solid;
@@ -55,13 +61,15 @@ border-radius: 5px;
 
 .div50{
 width: 50%;
-border: 1px solid;
+border: px solid;
 border-radius: 5px;
+margin: 5px;
 }
 
 .div60{
   width: 60%;
   border: px solid;
+  margin: 5px;
 }
 
 .div75{

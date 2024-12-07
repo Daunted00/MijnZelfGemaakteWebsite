@@ -28,6 +28,7 @@ nav div {
 .logo { /*logo class die aan een div gegeven kan worden speciaal om het logo in het midden te zetten*/
     height: 32px; /*hoogte van het plaatje*/
     margin-left: 50%; /*zet het plaatje in het midden*/
+    width: 32px;
 }
 
 .menu { /*tekst + icon goed zetten*/
