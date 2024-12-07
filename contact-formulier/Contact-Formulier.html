@@ -1,28 +1,27 @@
 <!doctype html>
-<html>
+<html lang="nl">
 
 <head>
+
   <title>Contact-formulier</title> <!--naam voor browser-pagina naam-->
+  <link rel="icon" href="../images/Logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script> <!--voert standaard opmaak uit-->
-  <link rel="stylesheet" href="../Style/Navigatiebalk.css"> <!--voegt css voor navigatiebalk toe-->
-  <link rel="stylesheet" href="../Style/Header.css"> <!--voegt css voor de header toe-->
+  <!--<script src="https://cdn.tailwindcss.com"></script>--> <!--voert standaard opmaak uit-->
+  <link rel="stylesheet" href="../Style/stylesheet.css">
   <link rel="stylesheet" href="../Style/ContactFormulier.css"> <!--voegt css voor het contactformulier toe-->
-  <link rel="stylesheet" href="../Style/Footer.css">
-  <link rel="stylesheet" href="../Style/Body.css">
-  <script type="module" src="/Components/NavigationBar.js"></script>
+  <script type="module" src="../Components/NavigationBar.js"></script>
 </head>
 
 <body>
   <nav>
     <div>
-        <a class="return" href="../sitemap.html"><img src="../fontIcons/arrow-left-solid.svg" alt="Return"/>Terug</a>
+        <a class="return" href="../sitemap.html"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
     </div>
     <div>
-        <img class="logo" src="../images/smiley.png" alt="smiley.jpg">
+        <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">
     </div>
     <div>
-         <a class="menu" href="../sitemap.html">Menu<img src="../fontIcons/bars-solid.svg" alt="menu"/></a>
+         <a class="menu" href="../sitemap.html">Menu<img src="../fontIcons/bars-solid-white.svg" alt="menu-Icoon"/></a>
     </div>
 </nav>
 
@@ -57,18 +56,17 @@
   <p id="responseMessage"></p>
 </div>
 
-<script src="/Javascript/ContactFormulier.js"></script>
-
-
 <footer>
- 
   <div class="grid-container">
-    <div class="grid-item">Box 1</div>
-    <div class="grid-item">Box 2</div>
-    <div class="grid-item">Box 3</div>
+    <div class="grid-item">
+      <img class="littleLogo" src="../images/Logo.png" alt="Website-Logo">
+    </div>
+    <div class="grid-item">Bedankt voor het bezoeken van mijn website.</div>
+    <div class="grid-item"> &#169 2024 Mijn zelf gemaakte website gemaakt door Jochem Hogeveen</div>
   </div>
 </footer>
 
+<script src="/Javascript/ContactFormulier.js"></script>
 </body>
 
 </html>

@@ -8,6 +8,7 @@ header {
     align-items: center; /*zet de tekst verticaal in het midden*/
     text-align: center; /*zet de tekst horizontaal in het midden*/
     min-height: 64px;
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 
@@ -22,4 +23,16 @@ header div {
     background-color: #C9C8C8;
     border-radius: 100%;
     float: right;
+    box-shadow: 0px 0px 5px white;
+}
+
+.headtitle{
+    
+    font-size: 32px;
+}
+
+.subtitle{
+    
+    font-size: 28px;
+
 }

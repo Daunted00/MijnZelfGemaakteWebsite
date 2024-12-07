@@ -1,8 +1,8 @@
 footer {
-    background-color: grey;
+    background-color: #0E2C40;
     display: flex;
+    color: white;
     
-
 }
 
 footer div {
@@ -20,9 +20,17 @@ footer div {
   }
   
   .grid-item {
-    background-color: lightgreen;
-    text-align: center;
-    padding: 20px;
+    background-color: #0E2C40;
+    text-align: left;
+    padding: 5px;
     border: 1px solid #000;
+    
+  }
+
+  .littleLogo {
+    height: 32px;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
     
   }

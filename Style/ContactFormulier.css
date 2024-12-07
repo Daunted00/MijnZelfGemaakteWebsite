@@ -1,10 +1,11 @@
 
+
 .container {
     width: 100%;
     max-width: 500px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 7% 23%;
-    background-color: #ffffff;
+    background-color: #C9C8C8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     flex: 1;
@@ -12,23 +13,34 @@
 
 input, textarea {
     width: 100%;
-    padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    min-width: 100%;
+    max-width: 100%;
+    
+}
+
+textarea{
+    min-height: 50px;
 }
 
 button {
-    width: 100%;
+    width: 104.5%;
     padding: 10px;
     background-color: #F1B29B;
-    color: #F1B29B;
+    color: black;
     border: 0px solid;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    
+    
 }
 
 button:hover {
     background-color: #218838;
+    color: white;
 }

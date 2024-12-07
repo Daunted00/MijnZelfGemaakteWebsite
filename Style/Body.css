@@ -1,9 +1,3 @@
-html, body {
-  height: 100%; /* Zorg ervoor dat de volledige hoogte van de viewport wordt gebruikt */
-  margin: 0; /* Verwijder standaard marges */
-  display: flex; /* Gebruik Flexbox */
-  flex-direction: column; /* Stapel elementen verticaal */
-}
 
 body {
     display: flex;
@@ -12,6 +6,106 @@ body {
     margin: 0 auto;
     background-color: #0D7691;
     color: black;
-    font-family: Arial, sans-serif;
+    
     
   }
+
+body div.opdracht{
+  width: 70%;
+  margin: 10px auto;
+  padding: 1% 1%;
+  background-color: #C9C8C8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  flex: 1;
+  font-size: 16px;
+  
+}
+
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  
+
+}
+
+.pictures {
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+
+}
+
+.section{
+  display: flex;
+  margin: 25px;
+}
+
+.div25{
+width: 25%;
+border: px solid;
+border-radius: 5px;
+
+}
+.div40{
+  width: 40%;
+  border: px solid;
+  padding: 10px;
+}
+
+.div50{
+width: 50%;
+border: 1px solid;
+border-radius: 5px;
+}
+
+.div60{
+  width: 60%;
+  border: px solid;
+}
+
+.div75{
+  width: 75%;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.div100{
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 1200px){
+body{
+  font-size: 13px;
+  
+}
+body div.opdracht{
+  width: 90%;
+  
+}
+
+}
+
+@media (max-width: 900px){
+  body{
+    font-size: 16px;
+    
+  }
+  
+  body div.opdracht{
+    width: 90%;
+    
+  }
+  .section{
+  display:grid;
+  
+  }
+  .div60{
+    width: 100%;
+  }
+  .div40{
+    width: 100%;
+  }
+
+
+}
