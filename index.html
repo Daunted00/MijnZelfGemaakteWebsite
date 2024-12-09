@@ -6,15 +6,24 @@
     <link rel="stylesheet" href="../Style/stylesheet.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script> <!--voert standaard opmaak uit-->
-    <link rel="stylesheet" href="../Style/stylesheet.css"> <!--voegt css voor navigatiebalk toe-->
-    <script type="module" src="../Components/NavigationBar.js"></script>
-    <script type="module" src="../Components/HeaderOfThePage.js"></script>
-    <script type="module" src="../Components/FooterOfThePage.js"></script>
+    <link rel="stylesheet" href="./Style/stylesheet.css"> <!--voegt css voor navigatiebalk toe-->
+    <script type="module" src="./Components/HeaderOfThePage.js"></script>
+    <script type="module" src="./Components/FooterOfThePage.js"></script>
 </head>
 
 <body>
     
-    <navigation-bar></navigation-bar>
+  <nav>
+    <div>
+        <a class="return" href="./sitemap.html"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
+    </div>
+    <div>
+        <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">
+    </div>
+    <div>
+        <a class="menu" href="./sitemap.html">Menu<img src="../fontIcons/bars-solid-white.svg" alt="menu-Icoon"/></a>
+    </div>
+  </nav>
 
     <header> 
         <div> <!--Title-->
