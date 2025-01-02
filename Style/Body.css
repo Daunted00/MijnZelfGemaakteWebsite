@@ -78,6 +78,7 @@ margin: 5px;
   border: 1px solid;
   border-radius: 5px;
 }
+
 .div100{
   width: 100%;
   border-radius: 5px;
@@ -86,35 +87,33 @@ margin: 5px;
 @media (max-width: 1200px){
 body{
   font-size: 13px;
-  
 }
 body div.opdracht{
   width: 90%;
-  
 }
-
 }
 
 @media (max-width: 900px){
   body{
     font-size: 16px;
-    
   }
-  
   body div.opdracht{
     width: 90%;
-    
   }
   .section{
   display:grid;
-  
   }
   .div60{
+    width: 100%;
+  }
+  .div50{
     width: 100%;
   }
   .div40{
     width: 100%;
   }
-
+  .div33{
+    width: 100%;
+  }
 
 }
