@@ -35,7 +35,15 @@ h2{
   width: 100%;
   margin: 5px;
 }
-
+@media (min-width: 1200px){
+.section img:hover{
+  transform: scale(1.75);
+  transition: transform 0.3s ease, z-index 0s ease 0.3s;
+}
+.section img:not(:hover){
+  transition: transform 0.3s ease, z-index 0s ease 0.3s;
+}
+}
 .section{
   display: flex;
   margin: 25px;
@@ -69,13 +77,13 @@ margin: 5px;
 
 .div60{
   width: 60%;
-  border: px solid;
+  border: 0px solid;
   margin: 5px;
 }
 
 .div75{
   width: 75%;
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 5px;
 }
 
@@ -103,6 +111,9 @@ body div.opdracht{
   .section{
   display:grid;
   }
+  .div75{
+    width: 100%;
+  }
   .div60{
     width: 100%;
   }
@@ -113,6 +124,9 @@ body div.opdracht{
     width: 100%;
   }
   .div33{
+    width: 100%;
+  }
+  .div25{
     width: 100%;
   }
 
