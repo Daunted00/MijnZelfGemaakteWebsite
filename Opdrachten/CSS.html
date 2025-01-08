@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-    <title>CSS</title> <!--naam voor browser-pagina naam-->
+  <head>
+    <title>CSS</title>
+    <link rel="icon" href="../images/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="../Style/stylesheet.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script> <!--voert standaard opmaak uit-->
-    <link rel="stylesheet" href="../Style/stylesheet.css"> <!--voegt css voor navigatiebalk toe-->
     <script type="module" src="../Components/NavigationBar.js"></script>
     <script type="module" src="../Components/HeaderOfThePage.js"></script>
     <script type="module" src="../Components/FooterOfThePage.js"></script>
-</head>
+  </head>
 
-<body>
-    
+  <body>
     <navigation-bar></navigation-bar>
 
-    <header> 
-        <div> <!--Title-->
-            <h1 class="headtitle">CSS</h1>
-        </div>
-        <div> <!--Circle-->
-          <div class="round"></div>
-        </div>
-        <div> <!--Subtitle-->
-          <h1 class="subtitle">Week 6</h1>
-        </div>
+    <header>
+      <div>
+        <!--Title-->
+        <h1 class="headtitle">CSS</h1>
+      </div>
+      <div>
+        <!--Circle-->
+        <div class="round"></div>
+      </div>
+      <div>
+        <!--Subtitle-->
+        <h1 class="subtitle">Week 6</h1>
+      </div>
     </header>
-<!--             -->
+    <!--             -->
     <div class="opdracht">
       <div class="section">
-        <div class="div60">
-          
-        </div> 
-        <div class="div40">
-          
-          
-        </div>
-      </div>
-      <div class="section">
-        <div class="div40">
-          
-        </div>
-        <div class="div60">
-          
-        </div>
-      </div>
-      <div class="section">
-        <div class="div60">
-          
-        </div>
-        <div class="div40">
-          
-        </div>  
-      
-      
-      </div>
-    </div>
-<!--             -->    
-    <div class="opdracht">
-      <div class="section">
-        <div class="div100">
-          
-        </div>
-      </div>
-        <div class="section">
-          <div class="div40">
-            
-          </div>
+        <div class="Border">
           <div class="div60">
-            
+            <h2>Opmaak</h2>
+            <p>
+              Met HTML hebben we een structuur gemaakt van de website, maar
+              daarmee ziet de website er niet goed uit. Daar hebben we CSS voor
+              nodig om de website een style te geven. Met CSS kan er gigantisch
+              veel gedaan worden, bijvoorbeeld:
+            </p>
+            <ul>
+              <li>kleuren veranderen</li>
+              <li>lettertype veranderen</li>
+              <li>Aangeven waar een onderdeel moet staan</li>
+              <li>Schaduw geven aan onderdelen</li>
+              <li>plaatje aanpassen naar hoe jij het wilt hebben</li>
+            </ul>
+            <p>
+              Er zijn nog veel meer dingen die er gedaan kunnen worden. Deze
+              voorbeelden zijn nog maar het begin van wat er verder allemaal
+              gedaan kan worden.
+            </p>
+          </div><!--div60-->
+        </div><!--Border-->
+        <div class="div40"></div>
+      </div><!--section-->
+      <div class="section">
+        <div class="Border">
+          <div class="div100">
+            <img
+              src="../images/1.6 CSS/eerste stappen CSS.PNG"
+              alt="Mijn eerste CSS"
+            />
+            <p>
+              In de afbeelding hierboven heb ik geoefend met het CSS voor mijn
+              website. Hierbij heb ik verschillende dingen uitgeprobeerd om het
+              allemaal een beetje onder de knie te krijgen. Dat is denk ik wel
+              aardig gelukt, want mijn huidige website ziet er al een stuk beter
+              uit dan hoe ik begonnen ben.
+            </p>
           </div>
+          <!--div100-->
         </div>
-    <div class="section">
-      <div class="div60">
-        
+        <!--Border-->
       </div>
-      <div class="div40">
-        
+      <!--section-->
+      <div class="section">
+        <div class="Border">
+          <div class="div60">
+            <img
+              src="../images/1.6 CSS/CSS rondje.png"
+              alt="Opmaak van een onderdeel van de titelbar"
+            />
+          </div>
+          <!--div60-->
+          <div class="div40">
+            <h2>Voorbeeld</h2>
+            <p>
+              Hier zien we een voorbeeld van een stukje CSS. Dit stukje is de
+              CSS die ik gemaakt heb voor het rondje die te zien is in de
+              titelbalk van mijn website. De hoogte en breedte worden aangegeven
+              voor het juiste formaat. De achtergrond kleur wordt verandert naar
+              licht grijs. De border-radius zorgt ervoor dat het van een
+              vierkant een rondje wordt en de box-shadow geeft het rondje een
+              witte gloed waardoor het lijkt alsof het rondje licht geeft.
+            </p>
+          </div>
+          <!--div40-->
+        </div>
+        <!--Border-->
       </div>
-    
-    
+      <!--section-->
     </div>
-    </div>
-
-
+    <!--opdracht-->
     <page-footer></page-footer>
-
-</body>
-
+  </body>
 </html>
