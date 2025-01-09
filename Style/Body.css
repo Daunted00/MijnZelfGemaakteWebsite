@@ -1,13 +1,7 @@
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
     background-color: #0D7691;
     color: black;
-    
-    
   }
 
 body div.opdracht{
@@ -17,19 +11,27 @@ body div.opdracht{
   background-color: #C9C8C8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  flex: 1;
   font-size: 16px;
   
 }
 
-div.Border{
+div.border{
   background-color: aliceblue;
   border-radius: 25px;
   padding: 3%;
-  flex: 1;
   width: 90%;
   display: flex;
   flex-direction: row;
+  margin: 0 auto;
+}
+
+div.borderreverse{
+  background-color: aliceblue;
+  border-radius: 25px;
+  padding: 3%;
+  width: 90%;
+  display: flex;
+  flex-direction: row-reverse;
   margin: 0 auto;
 }
 
@@ -54,7 +56,6 @@ h2{
 }
 }
 .section{
-  display: flex;
   margin: 25px;
 }
 
@@ -68,8 +69,6 @@ border-radius: 5px;
 .div33{
   width: 33%;
   margin: 5px;
-  
-
 }
 .div40{
   width: 40%;
@@ -105,9 +104,14 @@ margin: 5px;
 body{
   font-size: 13px;
 }
+div.border, div.borderreverse{
+  flex-direction: column;
+  
+}
 body div.opdracht{
   width: 90%;
 }
+
 }
 
 @media (max-width: 900px){
@@ -121,26 +125,11 @@ body div.opdracht{
   display:flex;
   flex-direction: column;
   }
-  div.Border{
-    display: flex;
+  div.border, div.borderreverse{
     flex-direction: column;
+
   }
-  .div75{
-    width: 100%;
-  }
-  .div60{
-    width: 100%;
-  }
-  .div50{
-    width: 100%;
-  }
-  .div40{
-    width: 100%;
-  }
-  .div33{
-    width: 100%;
-  }
-  .div25{
+  .div75, .div60, .div50, .div40, .div33, .div25{
     width: 100%;
   }
 }

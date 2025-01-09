@@ -4,10 +4,11 @@ class navigationbar extends HTMLElement {
     }
 
     connectedCallback() {
+        const returnUrl = this.getAttribute('return-url') || '../sitemap.html';
         this.innerHTML = `
              <nav>
                 <div>
-                    <a class="return" href="../sitemap.html"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
+                    <a class="return" href="${returnUrl}"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
                 </div>
                 <div>
                     <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">

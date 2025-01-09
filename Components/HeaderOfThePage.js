@@ -4,16 +4,18 @@ class HeaderOfThePage extends HTMLElement {
     }
 
     connectedCallback() {
+        const title= this.getAttribute('title') || 'Not declared';
+        const subtitle= this.getAttribute('subtitle') || 'Not declared';
         this.innerHTML = `
             <header> 
                 <div> <!--Title-->
-                    <h1>Contactformulier</h1>
+                    <h1>${title}</h1>
                 </div>
                 <div> <!--Circle-->
                   <div class="round"></div>
                 </div>
                 <div> <!--Subtitle-->
-                  <h1>hello</h1>
+                  <h1>${subtitle}</h1>
                 </div>
             </header>
         `;
