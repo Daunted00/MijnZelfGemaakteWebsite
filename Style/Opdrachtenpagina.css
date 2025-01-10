@@ -22,26 +22,30 @@
     transition: transform 0.3s ease, z-index 0s ease 0.3s;
 }
 
+.emptycard{
+    opacity: 0%;
+}
+
+.placeholder {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    opacity: 0%;
+}
+
 .imgcard {
     background-color: white;
     border-radius: 30%;
 }
 
-.imgcardopacity {
-    opacity: 0%;
-}
 .imgcard img{
     border-radius: 50%; 
 }
 
-div.card img {
-    
+.card img {
     width: 100px;
-    height: 100px;
     padding: 10px;
-    margin: 0 auto;
 }
-
 
 .content{
     background-color: #ffffff;
@@ -50,11 +54,6 @@ div.card img {
     height: 100px;
     padding: 10px;
     margin: 10px;
-    font-size: 16px;
-}
-
-.card img{
-    width: 100%;
 }
 
 .card .content h3 {

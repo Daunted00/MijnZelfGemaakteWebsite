@@ -10,7 +10,7 @@ class navigationbar extends HTMLElement {
                 <div>
                     <a class="return" href="${returnUrl}"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
                 </div>
-                <div>
+                <div onclick="location.href='/index.html'">
                     <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">
                 </div>
                 <div>
