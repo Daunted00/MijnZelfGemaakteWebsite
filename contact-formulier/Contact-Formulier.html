@@ -4,69 +4,43 @@
 <head>
 
   <title>Contact-formulier</title> <!--naam voor browser-pagina naam-->
-  <link rel="icon" href="../images/Logo.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--<script src="https://cdn.tailwindcss.com"></script>--> <!--voert standaard opmaak uit-->
-  <link rel="stylesheet" href="../Style/stylesheet.css">
-  <link rel="stylesheet" href="../Style/ContactFormulier.css"> <!--voegt css voor het contactformulier toe-->
+  <link rel="icon" href="../images/Logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <!--om speciale karakters te gebruiken zoals 'é'-->
+  <link rel="stylesheet" href="../Style/stylesheet.css" />
   <script type="module" src="../Components/NavigationBar.js"></script>
+  <script type="module" src="../Components/HeaderOfThePage.js"></script>
+  <script type="module" src="../Components/FooterOfThePage.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 
 <body>
-  <nav>
-    <div>
-        <a class="return" href="../sitemap.html"><img src="../fontIcons/arrow-left-solid-white.svg" alt="Terug-Icoon"/>Terug</a>
-    </div>
-    <div>
-        <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">
-    </div>
-    <div>
-         <a class="menu" href="../sitemap.html">Menu<img src="../fontIcons/bars-solid-white.svg" alt="menu-Icoon"/></a>
-    </div>
-</nav>
-
-<header>
-  <div> <!--Title-->
-    <h1>Contactformulier</h1>
-  </div>
-  <div> <!--Circle-->
-    <div class="round"></div>
-  </div>
-  <div> <!--Subtitle-->
-    <h1>hello</h1>
-  </div>
-</header>
+  <navigation-bar return-url="../index.html"></navigation-bar>
+  <page-header title="Contact-formulier" subtitle="Week 17"></page-header>
 
 
-<div class="container">
+<div class="FormContainer">
   <h2>Als er vragen of opmerkingen zijn kunt u die hier achter laten.</h2><br>
   
   <form id="contactForm"> <!--form geeft aan dat het een forum is - id contact maakt een connectie met het javascript-->
     <label for="name">Naam:</label>
-    <input type="text" id="name" name="name" required>
+    <input type="text" id="Name" name="Name" required>
   
     <label for="email">E-mailadres:</label>
-    <input type="email" id="email" name="email" required>
+    <input type="Email" id="email" name="Email" required>
   
     <label for="message">Bericht:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
+    <textarea id="Message" name="Message" rows="4" required></textarea>
 
     <button type="submit">submit</button>
   </form>
   <p id="responseMessage"></p>
 </div>
 
-<footer>
-  <div class="grid-container">
-    <div class="grid-item">
-      <img class="littleLogo" src="../images/Logo.png" alt="Website-Logo">
-    </div>
-    <div class="grid-item">Bedankt voor het bezoeken van mijn website.</div>
-    <div class="grid-item"> &#169 2024 Mijn zelf gemaakte website gemaakt door Jochem Hogeveen</div>
-  </div>
-</footer>
+<page-footer></page-footer>
 
-<script src="/Javascript/ContactFormulier.js"></script>
+<script src="/Javascript/Form.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@
 body {
     background-color: #0D7691;
     color: black;
+
   }
 
 body div.opdracht{
@@ -12,7 +13,7 @@ body div.opdracht{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   font-size: 16px;
-  
+  flex: 1;
 }
 
 div.border{
@@ -38,6 +39,10 @@ div.borderreverse{
 h2{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 28px;
+}
+
+.opacity img{
+  box-shadow: 0 0 0;
 }
 
 .section img{
@@ -104,14 +109,9 @@ margin: 5px;
 body{
   font-size: 13px;
 }
-div.border, div.borderreverse{
-  flex-direction: column;
-  
-}
 body div.opdracht{
   width: 90%;
 }
-
 }
 
 @media (max-width: 900px){

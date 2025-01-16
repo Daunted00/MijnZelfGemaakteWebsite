@@ -1,10 +1,9 @@
 
 
-.container {
-    width: 100%;
-    max-width: 500px;
+.FormContainer {
+    width: 30%;
     margin: 10px auto;
-    padding: 7% 23%;
+    padding: 7% 15%;
     background-color: #C9C8C8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -15,16 +14,16 @@ input, textarea {
     width: 100%;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    min-width: 100%;
-    max-width: 100%;
-    
+    padding: 10px; 
 }
 
 textarea{
     min-height: 50px;
+    max-height: 150px;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 button {
@@ -36,11 +35,29 @@ button {
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    
-    
 }
 
 button:hover {
     background-color: #218838;
     color: white;
+}
+
+@media (max-width: 1200px){
+    .FormContainer {
+        width: 70%;
+        margin: 10px auto;
+        padding: 7% 10%;
+        background-color: #C9C8C8;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 900px){
+    .FormContainer {
+        width: 70%;
+        margin: 10px auto;
+        padding: 7% 13%;
+    }
 }
