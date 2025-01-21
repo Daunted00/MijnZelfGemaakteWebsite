@@ -60,46 +60,35 @@ h2{
   transition: transform 0.3s ease, z-index 0s ease 0.3s;
 }
 }
+
 .section{
   margin: 25px;
 }
 
 .div25{
 width: 25%;
-border: px solid;
 border-radius: 5px;
-
 }
-
 .div33{
   width: 33%;
   margin: 5px;
 }
 .div40{
   width: 40%;
-  border: px solid;
   padding: 10px;
 }
-
 .div50{
 width: 50%;
-border: px solid;
-border-radius: 5px;
 margin: 5px;
 }
-
 .div60{
   width: 60%;
-  border: 0px solid;
-  margin: auto;
+  margin: 5px;
 }
-
 .div75{
   width: 75%;
-  border: 0px solid;
   border-radius: 5px;
 }
-
 .div100{
   width: 100%;
   border-radius: 5px;

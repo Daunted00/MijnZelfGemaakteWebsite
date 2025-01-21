@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-    <title>Code Tooling</title> <!--naam voor browser-pagina naam-->
+  <head>
+    <title>Code Tooling</title>
+    <!--naam voor browser-pagina naam-->
     <link rel="icon" href="../images/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -11,72 +11,77 @@
     <script type="module" src="../Components/NavigationBar.js"></script>
     <script type="module" src="../Components/HeaderOfThePage.js"></script>
     <script type="module" src="../Components/FooterOfThePage.js"></script>
-</head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<body>
-  <navigation-bar return-url="../sitemap.html"></navigation-bar>
-  <page-header title="CodeTooling" subtitle="Week X"></page-header>
+  <body>
+    <navigation-bar return-url="../sitemap.html"></navigation-bar>
+    <page-header title="CodeTooling" subtitle="Week X"></page-header>
 
-<!--             -->
+    <!--             -->
     <div class="opdracht">
-      <div class="section">
-        <div class="div60">
-          
-        </div> 
-        <div class="div40">
-          
-          
+      <div
+        class="bg-white gap-2 rounded-2xl p-6 flex flex-col md:flex-row-reverse m-4"
+      >
+        <div class="w-full md:w-3/5">
+          <h1 class="font-sans text-3xl font-semibold">Hulpmiddelen</h1>
+          <p class="font-sans">
+            Er zijn verschillende hulpmiddelen die je kunt gebruiken om je
+            website op te maken. Hierbij kun je denken aan css zelfschrijven
+            zoals beschreven in een vorige hoofdstuk, maar we kunnen het ook met
+            css-frameworks doen. Een css-frameworks is een set standaard waarde
+            die gebruikt kunnen worden in de code van de website om het
+            uiterlijk aan te passen. css zet je in een apart bestand, maar
+            css-frameworks kun je meteen toevoegen aan je code van je pagina.
+            Hiermee kan je makkelijker zien wat er voor zorgt dat je pagina er
+            zo uit ziet.
+          </p>
+        </div>
+        <div class="w-full md:2/5 m-auto">
+          <img
+            class="rounded-2xl shadow-xl"
+            src="../images/1.8 codetooling/css-framework voorbeeld.png"
+          />
         </div>
       </div>
-      <div class="section">
-        <div class="div40">
-          
-        </div>
-        <div class="div60">
-          
-        </div>
-      </div>
-      <div class="section">
-        <div class="div60">
-          
-        </div>
-        <div class="div40">
-          
-        </div>  
-      
-      
-      </div>
-    </div>
-<!--             -->    
-    <div class="opdracht">
-      <div class="section">
-        <div class="div100">
-          
-        </div>
-      </div>
-        <div class="section">
-          <div class="div40">
-            
-          </div>
-          <div class="div60">
-            
-          </div>
-        </div>
-    <div class="section">
-      <div class="div60">
-        
-      </div>
-      <div class="div40">
-        
-      </div>
-    
-    
-    </div>
-    </div>
 
+      <div
+        class="bg-white gap-2 rounded-2xl p-6 flex flex-col md:flex-row-reverse m-4"
+      >
+        <div class="w-full">
+          <h1 class="font-sans text-3xl font-semibold">
+            Hoe heb ik het gebruikt?
+          </h1>
+          <p>
+            Ik was al redelijk ver met mijn css. Toen kwam ik er achter dat er
+            een framework in de website moest zitten. Dit is een onderdeel van
+            de toetsbeschrijving. Omdat ik mijn css al redelijk voor elkaar had
+            was het lastiger om een css-framework toe te voegen. Dit schopte de
+            opmaak van mijn site in de war. Daarom heb ik er voor gekozen om op
+            maar 1 pagina een css-framework te gebruiken. Ik heb dat gedaan op
+            deze pagina, de pagina van codetooling. Zo heb ik toch laten zien
+            dat ik het kan gebruiken, maar hoefde er niet helemaal mijn website
+            voor om te gooien
+          </p>
+        </div>
+        <!--div100-->
+      </div>
 
+      <!--             -->
+      <div
+        class="bg-white gap-2 rounded-2xl p-6 flex flex-col md:flex-row-reverse m-4"
+      >
+        <div class="w-full">
+          <h1>Bronnen</h1>
+          <p>Tailwindcss:</p>
+          <a class=" " href="https://tailwindcss.com/docs/grid-auto-flow"
+            >https://tailwindcss.com/docs/grid-auto-flow</a
+          >
+        </div>
+        <!--div100-->
+      </div>
+      <!--border-->
+    </div>
     <page-footer></page-footer>
-
-</body>
-
+  </body>
 </html>

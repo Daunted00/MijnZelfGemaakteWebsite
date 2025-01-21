@@ -1,6 +1,5 @@
 
-
-.FormContainer {
+.FormContainer { /*Het grijze vak van het contact formulier*/
     width: 30%;
     margin: 10px auto;
     padding: 7% 15%;
@@ -10,7 +9,7 @@
     flex: 1;
 }
 
-input, textarea {
+input, textarea { /*opmaak van de invul velden*/
     width: 100%;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -19,20 +18,19 @@ input, textarea {
     padding: 10px; 
 }
 
-textarea{
+textarea { /* zorgt er voor dat het textarea goeie maten blijft. */
     min-height: 50px;
     max-height: 150px;
     min-width: 100%;
     max-width: 100%;
 }
 
-button {
+button { /* submit button */
     width: 104.5%;
     padding: 10px;
     background-color: #F1B29B;
     color: black;
-    border: 0px solid;
-    border-radius: 4px;
+    border-radius: 0px;
     font-size: 16px;
     cursor: pointer;
 }

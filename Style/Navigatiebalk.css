@@ -1,17 +1,16 @@
-
-a{
-    font-size: 28px;
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 nav { /*algemene nav css*/
     background-color: #12181D; /*maakt de navigatie balk donker*/
     color: white; /*witte letters*/
     font-size: 20px; /*grootte van de tekst in de navigatiebalk*/
     display: flex; /*zorgt dat de box die gemaakt wordt flex is*/
     padding: 20px 25px; /*creërt extra ruimte in de box*/
+}
+
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav div { 
@@ -21,20 +20,17 @@ nav div {
 
 .return { /*tekst + icon goedzetten*/
     height: 32px; /*zorgt ervoor dat de hoogte van de return arrow 32px is*/
-    display: flex; /*?*/ /*zonder wordt de pijl weer groot*/
-    
+    display: flex; /*zet de pijl en tekst naast elkaar*/
 }
 
 .logo { /*logo class die aan een div gegeven kan worden speciaal om het logo in het midden te zetten*/
     height: 32px; /*hoogte van het plaatje*/
     margin-left: 50%; /*zet het plaatje in het midden*/
-    width: 32px;
 }
 
 .menu { /*tekst + icon goed zetten*/
     height: 32px; /*zorgt ervoor dat de hoogte van de return arrow 32px is*/
     display: flex;
-    float: right;
-    
+    justify-content: end;
 }
 

@@ -1,46 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
+  <head>
+    <title>Contact-formulier</title>
+    <!--naam voor browser-pagina naam-->
+    <link rel="icon" href="../images/Logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <!--om speciale karakters te gebruiken zoals 'é'-->
+    <link rel="stylesheet" href="../Style/stylesheet.css" />
+    <script type="module" src="../Components/NavigationBar.js"></script>
+    <script type="module" src="../Components/HeaderOfThePage.js"></script>
+    <script type="module" src="../Components/FooterOfThePage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
 
-<head>
+  <body>
+    <navigation-bar return-url="../index.html"></navigation-bar>
+    <page-header title="Contact-formulier" subtitle="Week 17"></page-header>
 
-  <title>Contact-formulier</title> <!--naam voor browser-pagina naam-->
-  <link rel="icon" href="../images/Logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <!--om speciale karakters te gebruiken zoals 'é'-->
-  <link rel="stylesheet" href="../Style/stylesheet.css" />
-  <script type="module" src="../Components/NavigationBar.js"></script>
-  <script type="module" src="../Components/HeaderOfThePage.js"></script>
-  <script type="module" src="../Components/FooterOfThePage.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-</head>
+    <div class="FormContainer">
+      <h2>Als er vragen of opmerkingen zijn kunt u die hier achter laten.</h2>
+      <br />
 
-<body>
-  <navigation-bar return-url="../index.html"></navigation-bar>
-  <page-header title="Contact-formulier" subtitle="Week 17"></page-header>
+      <form id="contactForm">
+        <!--form geeft aan dat het een forum is - id contact maakt een connectie met het javascript-->
+        <label for="name">Naam:</label>
+        <input type="text" id="Name" name="Name" required />
 
+        <label for="email">E-mailadres:</label>
+        <input type="Email" id="email" name="Email" required />
 
-<div class="FormContainer">
-  <h2>Als er vragen of opmerkingen zijn kunt u die hier achter laten.</h2><br>
-  
-  <form id="contactForm"> <!--form geeft aan dat het een forum is - id contact maakt een connectie met het javascript-->
-    <label for="name">Naam:</label>
-    <input type="text" id="Name" name="Name" required>
-  
-    <label for="email">E-mailadres:</label>
-    <input type="Email" id="email" name="Email" required>
-  
-    <label for="message">Bericht:</label>
-    <textarea id="Message" name="Message" rows="4" required></textarea>
+        <label for="message">Bericht:</label>
+        <textarea id="Message" name="Message" rows="4" required></textarea>
 
-    <button type="submit">submit</button>
-  </form>
-  <p id="responseMessage"></p>
-</div>
+        <button type="submit">submit</button>
+      </form>
+      <p id="responseMessage"></p>
+    </div>
 
-<page-footer></page-footer>
+    <page-footer></page-footer>
 
-<script src="/Javascript/Form.js"></script>
-</body>
-
+    <script src="/Javascript/Form.js"></script>
+  </body>
 </html>

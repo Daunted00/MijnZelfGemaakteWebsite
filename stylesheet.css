@@ -14,16 +14,12 @@ p.textbox{
     border-color: darkorange;
     border-radius: 2px;
     border-style: outset;
-
-
 }
 
 div.textbox{
     width: auto;
     background-color: blue;
     padding: 15px;
-
-
 }
 
 a:link{
@@ -31,8 +27,8 @@ a:link{
     background-color: transparent;
     background-size: auto;
     text-decoration: none ;
-    
 }
+
 a:visited{
     color: rgb(0, 0, 0);
     background-color: transparent;

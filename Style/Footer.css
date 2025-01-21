@@ -2,13 +2,10 @@ footer {
     background-color: #0E2C40;
     display: flex;
     color: white;
-    
 }
 
 footer div {
     flex: 0 1 100%; /*zorgt er voor dat de <div>'s worden verdeelt horizontaal*/
-    
-    border: 1px solid;
     padding: 5px;
 }
 
@@ -16,21 +13,15 @@ footer div {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Drie gelijke kolommen */
     gap: 10px; /* Ruimte tussen de divs */
-    
   }
   
   .grid-item {
     background-color: #0E2C40;
     text-align: left;
     padding: 5px;
-    border: 1px solid #000;
-    
   }
 
   .littleLogo {
     height: 32px;
-    float: right;
-    margin-left: auto;
-    margin-right: auto;
-    
+    float: right;    
   }
