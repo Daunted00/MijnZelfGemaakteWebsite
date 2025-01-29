@@ -7,20 +7,20 @@ class SideBar extends HTMLElement {
         this.innerHTML = `
             <aside id="menu" class="hidden">
                 <div>
-                    <img src="/fontIcons/Home.png" alt="homebutton">
-                    <a href="index.html">Hoofdmenu</a>
+                    <img src="/2425/jmhogeveen/fontIcons/Home.png" alt="homebutton">
+                    <a href="/2425/jmhogeveen/index.html">Hoofdmenu</a>
                 </div>
                 <div>
-                    <img src="/fontIcons/Dot.png">
-                    <a href="sitemap.html">Opdrachten Pagina</a>
+                    <img src="/2425/jmhogeveen/fontIcons/Dot.png">
+                    <a href="/2425/jmhogeveen/sitemap.html">Opdrachten Pagina</a>
                 </div>
                 <div>
-                    <img src="/fontIcons/Dot.png">
-                    <a href="./contact-formulier/Contact-Formulier.html">Contact Formulier</a>
+                    <img src="/2425/jmhogeveen/fontIcons/Dot.png">
+                    <a href="/2425/jmhogeveen/contact-formulier/Contact-Formulier.html">Contact Formulier</a>
                 </div>
                 <div>
-                    <img src="/fontIcons/Dot.png">
-                    <a href="./Personlijke-informatie/OverMij.html">Over Mij</a>
+                    <img src="/2425/jmhogeveen/fontIcons/Dot.png">
+                    <a href="/2425/jmhogeveen/Personlijke-informatie/OverMij.html">Over Mij</a>
                 </div>
             </aside>
         `;

@@ -12,8 +12,8 @@ class navigationbar extends HTMLElement {
                 <div>
                     <a class="return" href="${returnUrl}"><p>〱Terug</p></a>
                 </div>
-                <div onclick="location.href='/index.html'">
-                    <img class="logo" src="../images/Logo.png" alt="Website-Logo.jpg">
+                <div onclick="location.href='/2425/jmhogeveen/index.html'">
+                    <img class="logo" src="/2425/jmhogeveen/images/Logo.png" alt="Website-Logo">
                 </div>
                 <div id="menuToggle" class="menu-toggle">
                     <p>Menu ☰</p>

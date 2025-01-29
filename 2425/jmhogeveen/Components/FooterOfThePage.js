@@ -8,7 +8,7 @@ class FooterOfThePage extends HTMLElement {
             <footer>
                 <div class="grid-container">
                     <div class="grid-item">
-                    <img class="littleLogo" src="../images/Logo.png" alt="Website-Logo">
+                    <img class="littleLogo" src="/2024/jmhogeveen/images/Logo.png" alt="Website-Logo">
                     </div>
                     <div class="grid-item">Bedankt voor het bezoeken van mijn website.</div>
                     <div class="grid-item"> &#169 2024 Mijn zelf gemaakte website gemaakt door Jochem Hogeveen</div>
