@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-    <title>SCSS</title> <!--naam voor browser-pagina naam-->
+  <head>
+    <title>SCSS</title>
+    <!--naam voor browser-pagina naam-->
     <link rel="icon" href="../images/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -11,72 +11,46 @@
     <script type="module" src="../Components/NavigationBar.js"></script>
     <script type="module" src="../Components/HeaderOfThePage.js"></script>
     <script type="module" src="../Components/FooterOfThePage.js"></script>
-</head>
+    <script type="module" src="./Components/SideBar.js"></script>
+  </head>
 
-<body>
-  <navigation-bar return-url="../sitemap.html"></navigation-bar>
-  <page-header title="SCSS" subtitle="Week 16"></page-header>
+  <body>
+    <navigation-bar
+      return-url="../sitemap.html"
+      sub-path="../"
+    ></navigation-bar>
+    <page-header title="SCSS" subtitle="Week 16"></page-header>
+    <side-bar></side-bar>
 
-<!--             -->
+    <!--             -->
     <div class="opdracht">
       <div class="section">
-        <div class="div60">
-          
-        </div> 
-        <div class="div40">
-          
-          
-        </div>
-      </div>
-      <div class="section">
-        <div class="div40">
-          
-        </div>
-        <div class="div60">
-          
-        </div>
-      </div>
-      <div class="section">
-        <div class="div60">
-          
-        </div>
-        <div class="div40">
-          
-        </div>  
-      
-      
-      </div>
-    </div>
-<!--             -->    
-    <div class="opdracht">
-      <div class="section">
-        <div class="div100">
-          
-        </div>
-      </div>
-        <div class="section">
-          <div class="div40">
-            
+        <div class="border">
+          <div class="div50">
+            <h1>SCSS</h1>
+            <p>
+              SCSS is een uitbreiding van CSS. Het is een manier om CSS te
+              schrijven met variabelen, functies en nog veel meer. SCSS is
+              makkelijker te lezen en te schrijven dan CSS. De SCSS wordt
+              omgezet naar CSS voordat het in de browser komt. Dit gebeurt met
+              een compiler. SCSS is een preprocessor van CSS. Dit betekent dat
+              SCSS code kan bevatten die niet in CSS kan.
+            </p>
           </div>
-          <div class="div60">
-            
+          <div class="div50">
+            <h1>Wat heb ik er mee gedaan</h1>
+            <p>
+              Voor mijn website heb ik geen SCSS gebruikt. Mijn CSS was al bijna
+              af voor dat we les kregen in SCSS. Hierdoor heb ik er voor gekozen
+              het zo te laten. Als ik een volgende website zou gaan maken dan ga
+              ik het wel proberen om in SCSS te maken. Daar wordt de CSS
+              leesbaarder van.
+            </p>
           </div>
         </div>
-    <div class="section">
-      <div class="div60">
-        
       </div>
-      <div class="div40">
-        
-      </div>
-    
-    
     </div>
-    </div>
-
-
     <page-footer></page-footer>
-
-</body>
-
+    <script src="../Javascript/SideBar.js"></script>
+  </body>
 </html>

@@ -5,7 +5,7 @@ class HeaderOfThePage extends HTMLElement {
 
     connectedCallback() {
         const title= this.getAttribute('title') || 'Not declared';
-        const subtitle= this.getAttribute('subtitle') || 'Not declared';
+        const subtitle= this.getAttribute('subtitle') || '';
         this.innerHTML = `
             <header> 
                 <div> <!--Title-->

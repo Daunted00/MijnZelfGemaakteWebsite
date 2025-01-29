@@ -11,12 +11,14 @@
     <script type="module" src="../Components/NavigationBar.js"></script>
     <script type="module" src="../Components/HeaderOfThePage.js"></script>
     <script type="module" src="../Components/FooterOfThePage.js"></script>
+    <script type="module" src="../Components/SideBar.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
   </head>
 
   <body>
-    <navigation-bar return-url="../index.html"></navigation-bar>
+    <navigation-bar return-url="../index.html" sub-path=""></navigation-bar>
     <page-header title="Contact-formulier" subtitle="Week 17"></page-header>
+    <side-bar></side-bar>
 
     <div class="FormContainer">
       <h2>Als er vragen of opmerkingen zijn kunt u die hier achter laten.</h2>
@@ -41,5 +43,6 @@
     <page-footer></page-footer>
 
     <script src="/Javascript/Form.js"></script>
+    <script src="../Javascript/SideBar.js"></script>
   </body>
 </html>

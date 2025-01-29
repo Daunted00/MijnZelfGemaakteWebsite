@@ -3,7 +3,13 @@ nav { /*algemene nav css*/
     color: white; /*witte letters*/
     font-size: 20px; /*grootte van de tekst in de navigatiebalk*/
     display: flex; /*zorgt dat de box die gemaakt wordt flex is*/
-    padding: 20px 25px; /*creërt extra ruimte in de box*/
+    padding: 20px 0px; /*creërt extra ruimte in de box*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    user-select: none;
+    
 }
 
 nav a{
@@ -12,7 +18,10 @@ nav a{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+nav p {
+    margin: 0 10px;
+    cursor: pointer;
+}
 nav div { 
     flex: 0 1 100%; /*zorgt dat de breedte van alle <div>'s 100% is*/ /*hoogte van de boxen*/ /*zonder worden de boxen uitgerekt naar onderen */
     border: 0px solid; /*een border om te testen of alles goed staat*/
@@ -34,3 +43,11 @@ nav div {
     justify-content: end;
 }
 
+nav p:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease, z-index 0s ease 0.3s;
+    cursor: pointer;
+}
+nav p:not(:hover){
+    transition: transform 0.3s ease, z-index 0s ease 0.3s;
+}

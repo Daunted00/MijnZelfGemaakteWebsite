@@ -11,12 +11,14 @@
     <script type="module" src="../Components/NavigationBar.js"></script>
     <script type="module" src="../Components/HeaderOfThePage.js"></script>
     <script type="module" src="../Components/FooterOfThePage.js"></script>
+    <script type="module" src="./Components/SideBar.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
-    <navigation-bar return-url="../sitemap.html"></navigation-bar>
-    <page-header title="CodeTooling" subtitle="Week X"></page-header>
+    <navigation-bar return-url="../sitemap.html" sub-path="../"></navigation-bar>
+    <page-header title="CodeTooling" subtitle="Week 9"></page-header>
+    <side-bar></side-bar>
 
     <!--             -->
     <div class="opdracht">
@@ -83,5 +85,6 @@
       <!--border-->
     </div>
     <page-footer></page-footer>
+    <script src="../Javascript/SideBar.js"></script>
   </body>
 </html>

@@ -2,18 +2,21 @@
 <html>
   <head>
     <title>sitemap</title>
-    <link rel="icon" href="../images/Logo.png" />
+    <link rel="icon" href="./images/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <!--om speciale karakters te gebruiken zoals 'é'-->
-    <link rel="stylesheet" href="../Style/stylesheet.css" />
-    <script type="module" src="../Components/NavigationBar.js"></script>
-    <script type="module" src="../Components/HeaderOfThePage.js"></script>
-    <script type="module" src="../Components/FooterOfThePage.js"></script>
+    <link rel="stylesheet" href="./Style/stylesheet.css" />
+    <script type="module" src="./Components/NavigationBar.js"></script>
+    <script type="module" src="./Components/HeaderOfThePage.js"></script>
+    <script type="module" src="./Components/FooterOfThePage.js"></script>
+    <script type="module" src="./Components/SideBar.js"></script>
   </head>
   <body>
     <navigation-bar return-url="../index.html"></navigation-bar>
-    <page-header title="Opdrachten" subtitle="."></page-header>
+    <side-bar></side-bar>
+    <page-header title="Opdrachten" subtitle=""></page-header>
+    
 
     <div class="container">
       <!-------------Personas----------------->
@@ -148,7 +151,7 @@
         </div>
       </div>
 
-      <!-------------CSS----------------->
+      <!-------------Javascript----------------->
       <div class="card" onclick="location.href='./Opdrachten/Javascript.html'">
         <div class="emptycard">
           <div class="placeholder"></div>
@@ -234,45 +237,6 @@
         <div class="content">
           <h3>Accessibility</h3>
           <p>Hoe maak je een website voor iedereen</p>
-        </div>
-        <div class="imgcard">
-          <div class="img">
-            <img
-              src="./images/Opdrachten pagina/Persona 1 Sjaak van de Ven V1.1.PNG"
-              alt="Persona's"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-------------Usability Testing----------------->
-      <div
-        class="card"
-        onclick="location.href='./Opdrachten/UsabilityTesting.html'"
-      >
-        <div class="imgcard">
-          <img
-            src="./images/Opdrachten pagina/Persona 1 Sjaak van de Ven V1.1.PNG"
-            alt="Persona's"
-          />
-        </div>
-        <div class="content">
-          <h3>Usability Testing</h3>
-          <p>Hoe weet je of jouw website gebruiksvriendelijkheid is</p>
-        </div>
-        <div class="emptycard">
-          <div class="placeholder"></div>
-        </div>
-      </div>
-
-      <!-------------SCSS----------------->
-      <div class="card" onclick="location.href='./Opdrachten/SCSS.html'">
-        <div class="emptycard">
-          <div class="placeholder"></div>
-        </div>
-        <div class="content">
-          <h3>SCSS</h3>
-          <p>Hoe kan je de css schoner houden</p>
         </div>
         <div class="imgcard">
           <div class="img">
@@ -405,5 +369,6 @@
       <li><a href="index.html">Home</a></li>
     </ul>
     <page-footer></page-footer>
+    <script src="./Javascript/SideBar.js"></script>
   </body>
 </html>

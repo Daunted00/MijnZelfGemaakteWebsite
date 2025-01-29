@@ -3,13 +3,12 @@ header {
     background-color: #0C3B47; /*maakt de achtergrond wit*/
     color: white; /*maakt de tekst zwart*/
     border: 0px solid; /*maakt een border om de header van 2pixels en maakt de lijn solid*/ /*kleur wordt automatisch zwart*/
-    margin: 0px 0px; /*zorgt ervoor dat de linker en rechter kant net iets uit steken waardoor je de lijnen niet ziet.*/
+    margin: 80px 0 0 0; /*zorgt ervoor dat de linker en rechter kant net iets uit steken waardoor je de lijnen niet ziet.*/
     display: flex; /*zorgt ervoor dat de 3 <div>'s naast elkaar staan*/
     align-items: center; /*zet de tekst verticaal in het midden*/
     text-align: center; /*zet de tekst horizontaal in het midden*/
     min-height: 64px;
     font-family:Arial, Helvetica, sans-serif;
-    
 }
 
 header div {
@@ -17,8 +16,8 @@ header div {
 }
 
 .round {
-    height: 64px;
-    width: 64px;
+    height: 60px;
+    width: 60px;
     border: 1px solid #C9C8C8;
     background-color: #C9C8C8;
     border-radius: 100%;
