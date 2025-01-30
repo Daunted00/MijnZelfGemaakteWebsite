@@ -13,6 +13,7 @@
     align-items: center;
     height: 150px;
 }
+
 .card:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease, z-index 0s ease 0.3s;
@@ -22,11 +23,7 @@
     transition: transform 0.3s ease, z-index 0s ease 0.3s;
 }
 
-.emptycard{
-    opacity: 0%;
-}
-
-.placeholder {
+.emptycard, .placeholder {
     width: 100px;
     height: 100px;
     padding: 10px;

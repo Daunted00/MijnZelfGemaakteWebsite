@@ -2,10 +2,9 @@
 body {
     background-color: #0D7691;
     color: black;
-
   }
 
-body div.opdracht{
+body div.opdracht{ /*grijze vlak*/
   width: 70%;
   margin: 10px auto;
   padding: 1% 1%;
@@ -16,7 +15,7 @@ body div.opdracht{
   flex: 1;
 }
 
-div.border{
+div.border{ /*Wit vlak tekst link, plaatje rechts*/
   background-color: aliceblue;
   border-radius: 25px;
   padding: 3%;
@@ -26,7 +25,7 @@ div.border{
   margin: 0 auto;
 }
 
-div.borderreverse{
+div.borderreverse{/*wit vlak tekst links, plaatje rechts */
   background-color: aliceblue;
   border-radius: 25px;
   padding: 3%;
@@ -41,6 +40,9 @@ h2{
   font-size: 28px;
 }
 
+p, li{
+  font-family: Arial, Helvetica, sans-serif;
+}
 .opacity img{
   box-shadow: 0 0 0;
 }
@@ -51,15 +53,7 @@ h2{
   width: 100%;
   margin: 5px;
 }
-@media (min-width: 1200px){
-.section img:hover{
-  transform: scale(1.5);
-  transition: transform 0.3s ease, z-index 0s ease 0.3s;
-}
-.section img:not(:hover){
-  transition: transform 0.3s ease, z-index 0s ease 0.3s;
-}
-}
+
 
 .section{
   margin: 25px;
@@ -93,6 +87,16 @@ margin: 5px;
   width: 100%;
   border-radius: 5px;
 }
+
+@media (min-width: 1200px){ 
+  .section img:hover{
+    transform: scale(1.5);
+    transition: transform 0.3s ease, z-index 0s ease 0.3s;
+  }
+  .section img:not(:hover){
+    transition: transform 0.3s ease, z-index 0s ease 0.3s;
+  }
+  }
 
 @media (max-width: 1200px){
 body{

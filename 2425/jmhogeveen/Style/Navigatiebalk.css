@@ -4,11 +4,11 @@ nav { /*algemene nav css*/
     font-size: 20px; /*grootte van de tekst in de navigatiebalk*/
     display: flex; /*zorgt dat de box die gemaakt wordt flex is*/
     padding: 20px 0px; /*creërt extra ruimte in de box*/
-    position: fixed;
+    position: fixed; /*zet de balk vast*/
     top: 0;
     width: 100%;
     height: 40px;
-    user-select: none;
+    user-select: none; /*kan de tekst niet selecteren*/
     
 }
 
@@ -16,11 +16,11 @@ nav a{
     font-size: 28px;
     text-decoration: none;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /*text style*/
 }
 nav p {
     margin: 0 10px;
-    cursor: pointer;
+    cursor: pointer; 
 }
 nav div { 
     flex: 0 1 100%; /*zorgt dat de breedte van alle <div>'s 100% is*/ /*hoogte van de boxen*/ /*zonder worden de boxen uitgerekt naar onderen */

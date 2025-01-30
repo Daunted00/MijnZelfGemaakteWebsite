@@ -1,74 +1,131 @@
 <!DOCTYPE html>
 <html lang="nl">
-
-<head>
-    <title>Accesibility</title> <!--naam voor browser-pagina naam-->
+  <head>
+    <title>Accesibility</title>
+    <!--naam voor browser-pagina naam-->
     <link rel="icon" href="/2425/jmhogeveen/images/Logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <!--om speciale karakters te gebruiken zoals 'é'-->
     <link rel="stylesheet" href="/2425/jmhogeveen/Style/stylesheet.css" />
-    <script type="module" src="/2425/jmhogeveen/Components/NavigationBar.js"></script>
-    <script type="module" src="/2425/jmhogeveen/Components/HeaderOfThePage.js"></script>
-    <script type="module" src="/2425/jmhogeveen/Components/FooterOfThePage.js"></script>
+    <script
+      type="module"
+      src="/2425/jmhogeveen/Components/NavigationBar.js"
+    ></script>
+    <script
+      type="module"
+      src="/2425/jmhogeveen/Components/HeaderOfThePage.js"
+    ></script>
+    <script
+      type="module"
+      src="/2425/jmhogeveen/Components/FooterOfThePage.js"
+    ></script>
     <script type="module" src="/2425/jmhogeveen/Components/SideBar.js"></script>
-</head>
+  </head>
 
-<body>
-  <navigation-bar return-url="/2425/jmhogeveen/sitemap.html"></navigation-bar>
-  <side-bar></side-bar>
-  <page-header title="Accesibility" subtitle="Week 12"></page-header>
+  <body>
+    <navigation-bar return-url="/2425/jmhogeveen/sitemap.html"></navigation-bar>
+    <side-bar></side-bar>
+    <page-header title="Accesibility" subtitle="Week 12"></page-header>
 
-<!--             -->
-<div class="opdracht">
-  <div class="section">
-    <div class="border">
-      <div class="div40">
-        <h1></h1>
-      </div>
-      <div class="div60">
-
-        />
-      </div>
-      <!--div60-->
-    </div>
-    <!--border-->
-  </div>
-  <!--section-->
-</div>
-<!--opdracht-->
-
-<!--             -->    
+    <!--             -->
     <div class="opdracht">
       <div class="section">
-        <div class="div100">
-          
-        </div>
-      </div>
-        <div class="section">
+        <div class="border">
           <div class="div40">
-            
+            <h1>Gebruiksvriendelijkheid voor iedereen</h1>
+            <p>
+              Voor de meeste mensen is een website bekijken heel makkelijk. Een
+              paar keer klikken en je bent waar je moet zijn, maar er is ook een
+              groep mensen die er moeite mee heeft. Daarom moet er ook aandacht
+              aan de website gegeven worden om het ook die mensen een goede
+              ervaring te geven. Onderaan de pagina staat een link die naar een
+              website gaat die jou laat ervaren hoe het is om met een beperking
+              een website af te gaan. De beperkingen die ik heb getest op die
+              website zijn:
+            </p>
+            <li>
+              Dyslexie: Op deze pagina begonnen alle letters door elkaar heen te
+              husselen. Om dit makkelijker voor hun te maken is het belangrijk
+              om afbeeldingen toe te voegen en een simpele en duidelijke
+              structuur te creëren
+            </li>
+            <li>
+              Kleurenblind: Deze pagina gaf een puzzel om de zelfde kleuren te
+              matchen, maar alles leek enorm op elkaar. Dit kan verholpen worden
+              door kleuren met grote contrasten te gebruiken en icoontje toe te
+              voegen.
+            </li>
+            <li>
+              Blind: Deze pagina was hele zwart en je moest er door heen
+              navigeren met alleen geluid en het toetsenbord. Door te zorgen dat
+              de code goed gemaakt is zal de voorlees applicatie duidelijker
+              zijn voor de blinde personen.
+            </li>
+            <li>
+              ADHD: Op deze pagina was het heel druk met een tijdslimiet en werd
+              je van alle kanten afgeleid. Door alles een logische volgorde te
+              geven en te zorgen dat ze alle tijd hebben is het makkerlijker
+              voor mensen met ADHD om door de site te navigeren
+            </li>
+            <li>
+              Slechthorend: Hierbij werd een video afgespeeld waar je veel niet
+              van kon verstaan. Door te zorgen dat er een goede ondertiteling
+              bij zit kunnen slechthorenden de video ook begrijpen.
+            </li>
+            <li>
+              Kokervisus: Op deze pagina was alles heel erg ingezoemd. Als het
+              niet dicht bij elkaar zit dan is het moeilijk te vinden. Het is
+              niet verstandig om tijdelijke dingen op een pagina te zetten voor
+              deze mensen, maar wel handig om dingen dicht bij elkaar te houden
+              zodat ze makkelijker dingen kunnen vinden.
+            </li>
+          </div>
+          <div class="div60"><img src="/2425/jmhogeveen/images/1.12 Accessability/Dyslexie.png" alt="Dyslexie tekst plaatje"></div>
+          <!--div60-->
+        </div>
+        <!--border-->
+      </div>
+      <!--section-->
+      <div class="section">
+        <div class="borderreverse">
+          <div class="div40">
+            <h2>Accesibility rapport</h2>
+            <p>Ik heb mijn website laten beoordelen met de WAVE plug-in. Deze plug-in geeft aan of iets goed accessible is of dat er iets is dat verbeterd moet/kan worden. Er waren maar een paar dingen die verbeterd moesten worden en er waren ook een paar aanraders.</p>
+            <p>De dingen die verbeterd moesten worden waren:</p>
+            <li>Missing alternative text: Bij een afbeelding miste ik een alternatieve tekst. Dit wordt voorgelezen aan slechtzienden en weergegeven als de afbeelding niet laad. Dit heb ik er meteen ingezet.</li>
+            <li>Language missing: Ik had de taal nog niet ingevuld. Dit is belangerijk voor zoekmachines en browsers. Dit heb ik ook meteen goed gemaakt.</li>
+            <p>De dingen die aangeraden werden</p>
+            <li>Redundant alternative text: De alternatieve tekst was hetzelfde als de text die erbij stond, daardoor zou het voorlees programma 2x hetzelfde zeggen. Ik heb de alternatieve tekst aagepast naar menu-icon</li>
+            <li>Suspicious alternative text: Een alternatieve text was onduidelijk. Deze is duidelijker gemaakt.</li>
+            <li>Redundant link: Een plaatje en tekst gaan naar dezelfde link. Dit heb ik opgelost door het plaatje aan te passen.</li>
           </div>
           <div class="div60">
-            
+            <img src="/2425/jmhogeveen/images/1.12 Accessability/accesibilitytest met WAVE.png" alt="accesibilitytest met Wave plug-in"/>
           </div>
         </div>
-    <div class="section">
-      <div class="div60">
-        
       </div>
-      <div class="div40">
-        
-      </div>
-    
-    
     </div>
-    </div>
+    <!--opdracht-->
 
+    <!--             -->
+    <div class="opdracht">
+      <div class="section">
+        <div class="border">
+        <div class="div100">
+          <p>
+            Website om te ervaren hoe het is om een website te bekijken emt
+            eenbeperking.
+          </p>
+          <a href="https://accessibility-game.netlify.app/" target="_blank"
+            >https://accessibility-game.netlify.app/</a
+          >
+        </div>
+        </div>
+      </div>
+    </div>
 
     <page-footer></page-footer>
     <script src="/2425/jmhogeveen/Javascript/SideBar.js"></script>
-
-</body>
-
+  </body>
 </html>
