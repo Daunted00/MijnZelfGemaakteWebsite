@@ -4,8 +4,6 @@ class navigationbar extends HTMLElement {
     }
 
     connectedCallback() {
-        const subPath = this.getAttribute('sub-path') || '';
-
         const returnUrl = this.getAttribute('return-url') || '../sitemap.html';
         this.innerHTML = `
              <nav>
