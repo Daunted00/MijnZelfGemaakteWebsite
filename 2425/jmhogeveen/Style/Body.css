@@ -6,7 +6,7 @@ body {
 
 body div.opdracht{ /*grijze vlak*/
   width: 70%;
-  margin: 10px auto;
+  margin: 15px auto;
   padding: 1% 1%;
   background-color: #C9C8C8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
